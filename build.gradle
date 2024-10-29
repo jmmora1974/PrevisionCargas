@@ -1,0 +1,22 @@
+apply plugin: 'java'
+apply plugin: 'jacoco'
+apply plugin: 'war'
+
+
+description = 'Web Previsiones de Cargas edificis con IRVE'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    providedCompile 'javax:javaee-web-api:7.0'
+  
+    testImplementation     'junit:junit:4.13'
+    implementation 'com.google.guava:guava:31.1-jre'
+}
+
+
+
+
+

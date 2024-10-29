@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/CalcuCargas"/>
+<jnlp spec="1.0+" codebase="http://localhost:8080/CalcuCargas/" href="apppcve.jnlp">
+    <information>
+        <title>Prevision de cargas de edificios con IRVE</title>
+        <vendor> Jose Miguel Mora </vendor>
+        <description>Calculo prevision de cargas de edificios con puntos de carga para vehículos eléctricos y sección</description>
+    </information>
+    <resources>
+        <jre version="8+"/>
+        <jar href="app.jar"/>
+    </resources>
+    
+    <application-desc main="App" >
+        
+    </application-desc>  
+</jnlp>
